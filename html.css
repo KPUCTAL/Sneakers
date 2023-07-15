@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background: linear-gradient(45deg,royalblue 65%,darkorange 35%);
+}
+html {
+    cursor: url(icons8-cursor-28.png), auto;
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+}
+article{
+    padding: 28px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: darkorange 8px 8px, royalblue 16px 16px;
+    height: 120px;
+
+}
+main {
+    margin: 150px auto;
+    width: 50%;
+}
+.SneakersShop {
+    color: orange;
+    text-shadow: royalblue 0 3px;
+    font-size: 45px;
+}
+.BestSneakers {
+    color: orange;
+    text-shadow: royalblue 0 1px;
+}
+section {
+    margin-top:48px;
+    background-color:white;
+    padding: 12px 32px;
+    border-radius: 16px;
+    box-shadow: darkorange 8px 8px, royalblue 16px 16px;
+}
+.sneakers_container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.sneaker_container {
+    border-radius: 16px;
+    box-shadow: 12px 12px royalblue, 0 0 16px #EDFAFA;
+    height: 400px;
+    margin-bottom: 32px;
+    width: 280px;
+}
+.sneakers_name {
+    color: royalblue;
+    text-shadow: 2px 2px darkorange;
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 16px;
+}
+.sneakers_price {
+    padding-left: 16px;
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkorange;
+    text-shadow: 2px 2px royalblue;
+}
+.sneakers_img {
+    background-size: cover !important;
+    background-position: cover !important;
+    background-repeat: no-repeat !important;
+    margin-bottom: 8px;
+    height: 75%;
+    border-radius: 12px 12px 0 0;
+}
+.img1 {
+    background: url(pngwing.com.png);
+}
+.img2 {
+    background: url(pngwing.com\ \(1\).png);
+}
+.img3 {
+    background: url(pngwing.com\ \(2\).png);
+}
+.img4 {
+    background: url(pngwing.com\ \(3\).png);
+}
+button {
+    color: royalblue;
+    background-color: darkorange;
+    text-shadow: 2px 2px darkorange;
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 16px;
+    width: 90%;
+    font-family: 'ZCOOL KuaiLe', sans-serif;
+    margin-top: 10px;
+    border-radius: 16px;
+    box-shadow: 2px 2px royalblue;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.button {
+    text-align: center;
+}
